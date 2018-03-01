@@ -1,0 +1,9 @@
+<app-header (currentPage)="currentPageChange($event)"></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <app-recipe *ngIf="isRecipesPage()"></app-recipe>
+            <app-shoppinglist *ngIf="isShoppingListPage()"></app-shoppinglist>
+        </div>
+    </div>
+</div>
