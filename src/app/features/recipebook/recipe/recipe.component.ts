@@ -17,6 +17,5 @@ export class RecipeComponent implements OnInit {
 
   onRecipeDetailChange(recipe: Recipe) {
     this.selectedRecipe = recipe;
-    console.log(this.selectedRecipe.description);
-  }
+    }
 }
